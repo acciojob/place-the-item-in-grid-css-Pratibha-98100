@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: grid;
+	border:2px solid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	gap:10px;
+}
+
+.item item-1{
+	border:2px solid;
+}
