@@ -2,12 +2,12 @@
 /* Your CSS Code here. */
 .holder{
 	display: grid;
+	grid-template-rows: 200px 200px;
+	grid-template-columns: 200px 200px;
 	border:2px solid;
-	grid-template-rows: 100px 100px;
-	grid-template-columns: 1100px 100px;
-	gap:10px;
+/* 	gap:10px; */
 }
 
-.item item-1{
+.item-1, .item-3,.item-2,.item-4{
 	border:2px solid;
 }
